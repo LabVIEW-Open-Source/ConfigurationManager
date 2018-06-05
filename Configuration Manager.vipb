@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-06-04 21:52:56" Creator="Francois Normandin" Comments="" ID="4d0d781bb27fc0821d49f54b8ad0b763">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-06-05 06:55:33" Creator="Francois Normandin" Comments="" ID="da4a3f394174baa47d97657f1d8c2da8">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Configuration_Manager</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
-    <Library_Output_Folder>.</Library_Output_Folder>
+    <Library_Output_Folder>_built-packages</Library_Output_Folder>
     <Company_Name>LabVIEW Open Source</Company_Name>
     <Library_Summary/>
     <Library_License>Unlicense</Library_License>
@@ -112,9 +112,6 @@
       <Exclusions>
         <Path>CfgManager Cache Lifetime Tests.vi</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -326,7 +323,7 @@
         <Path>source\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E53AD97F81750EE71756D25047501337</GUID>
+      <GUID>F6426F4E7A1C9AF48AA7FC2A0A7C60D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -375,7 +372,7 @@
         <Path>source\Encoding\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43865F10E963948C301103CB29F404AC</GUID>
+      <GUID>FBE973134B0F9C655D55697D5354C07E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -424,7 +421,7 @@
         <Path>source\Encoding.Base64\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA9CC7948735C2DE253CE3C4087C6A6C</GUID>
+      <GUID>6C52D37D0BE75215EC88BB78F49DC6DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -473,7 +470,7 @@
         <Path>source\Encryption\Encrypt.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24FB35F7B54EB4715BB3CF6C470539F0</GUID>
+      <GUID>04F7DCE07CD7AD28D6DE986C391A9FC2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -578,7 +575,7 @@
         <Path>source\Manager\Write Serializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92A3EA2ABAAC773FE7B2004CD8A94810</GUID>
+      <GUID>67C5F71F41DA0B9A7FC5DD8BF328CEB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -627,7 +624,7 @@
         <Path>source\Serializer\UnMarshall.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C9CB69F926ED941639D6A57B824DB5C</GUID>
+      <GUID>31EF4A7B9F8737AF9A1EC586BB9A6477</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -676,7 +673,7 @@
         <Path>source\Collection\Create Collection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA2EFBFB2DF6FDF61AF2885E5DF2F0EE</GUID>
+      <GUID>A51FB3AF6892B65E1B3ED31E41B4C078</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -753,7 +750,7 @@
         <Path>source\Serializer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>849578B5ADE362A63A2EF37D9E9BD934</GUID>
+      <GUID>CF3107CE260F998DCFD1FA000E2D2081</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
