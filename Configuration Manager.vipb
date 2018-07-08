@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-06-06 06:48:41" Creator="Francois Normandin" Comments="" ID="06f51ec3df6a4d8372f26833433c7c66">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-08 17:04:31" Creator="Francois Normandin" Comments="" ID="f880995910e9ce73801a331ea1a61fbf">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Configuration_Manager</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -16,7 +16,10 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.0.0.1</External_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.0.0.1</Direct_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -31,11 +34,23 @@
       <Description>Configuration Manager is an interface for managing configuration data.
 User are expected to extend the core to provide concrete implementation for disk of database persistency.
 
-This package contains a generic API for configuration data access. It includes a Collection class for multiple configurations and it includes a Cache class which provides in-memory configuration management.</Description>
+This package contains a generic API for configuration data access. It includes a Collection class for multiple configurations and it includes a Cache class which provides in-memory configuration management.
+
+*********
+The ConfigurationManager project is aimed at providing the backbone for framework-agnostic configuration management. Developers can override data source, provide their own serialization/deserialization algorithms, encoding or encryption. It is meant to be used as an injectable configuration management tool where the developer chooses at runtime what is the configuration supported, thus allowing unit testing with dependency-injected configuration states, while accessing configuration from remote locations or local file in a production context.
+
+This library proposes an abstract ConfigManager class and supplements it with a Cache ConfigManager (provides in-memory support) and a Collection ConfigManager (which aggregates an array of ConfigManagers). The CacheManager is a singleton in any given application instance (context). When merging managers into a Collection (or merging collections into a single one), the Cache managers are kept as a singleton. The Cache manager cannot be distributed over a network or shared in multiple application instances on the same machine. A distributed cache manager would be a specific type of manager that the developer can instantiate (it would act as a normal Config Manager).
+
+Examples of Configuration Managers could be CfgManager.INI, CfgManager.mySQL, CfgManager.XML, etc.
+
+During "Read" operations, the Collection of ConfigManagers is scanned until all elements have been found. If all elements are found in the first manager, it will not continue searching the other managers. Cache manager is always the last, unless the node specifies that it should be used preferably. On a successful read, the Cache manager is updated (Write) with the latest value.
+
+During "Write" operations, the elements will be written in the first manager of the Collection, and Cache will be updated.</Description>
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Initial release - Configuration Manager with Collection and Cache support</Release_Notes>
+      <Release_Notes>Adding Variant Read and Write support (flattens/unflattens variants to/from Key Value Pairs)
+This package now depends on LVOS DataManipulation package.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -312,7 +327,35 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>808B7DC185CF339F783E55F972A0D4DF</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write(Variant).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Manager\Write(Variant).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read(Variant).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Manager\Read(Variant).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F3FF291614BE58D24291B011C941655D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -361,7 +404,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Encoding\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79FC6BED936BD6612BB1CE25BD844B58</GUID>
+      <GUID>117BE5729F997DEBDFF36869F5DB989E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -410,7 +453,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Encoding.Base64\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37718197EBCB17B699D773351B4A9403</GUID>
+      <GUID>786DFFFFE1007EBA11FEB14636E1AFB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -459,7 +502,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Encryption\Encrypt.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDA425607F084180454BA822FD762A08</GUID>
+      <GUID>F3A962892D3C144E64FF08F67F199ECF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -564,7 +607,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Manager\Write Serializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F48C5908CE3EDC03FF9F96CA819DD323</GUID>
+      <GUID>C4FA08C910E32FBF56B9ED6E132D3802</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -613,7 +656,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Serializer\UnMarshall.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC9347FFB24C5F425FBC2DD30C054751</GUID>
+      <GUID>B5A35B5F3E1D6873FCA47864098700BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -662,7 +705,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Collection\Create Collection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D64BAD861B05B0505B6CD194E8A74FB4</GUID>
+      <GUID>4CF0198703108636C7D7B1D71C3FC38A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +782,7 @@ This package contains a generic API for configuration data access. It includes a
         <Path>source\Serializer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32BC41928BD03EE908869F293B0E9911</GUID>
+      <GUID>525981189EC3F42E43BAEBDCD68500CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
