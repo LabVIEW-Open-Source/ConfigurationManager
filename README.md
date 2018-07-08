@@ -9,6 +9,13 @@ During "Read" operations, the Collection of ConfigManagers is scanned until all 
 
 During "Write" operations, the elements will be written in the first manager of the Collection, and Cache will be updated.
 
+# Serialization
+
+# Encoding
+
+# Encryption
+
+
 # Package Build Steps
 To release packages in this project, please follow the convention below:
 
@@ -16,3 +23,6 @@ To release packages in this project, please follow the convention below:
 - Follow Semantic Versioning scheme (https://en.wikipedia.org/wiki/Software_versioning)
 - Use VI Package Manager 2016
 - Make sure the public API is accessible from a palette
+
+# Package Build Specs
+Always include dependencies in the package configuration (vipc file) so that the package can be installed without further downloads. If the package dependencies become too voluminous over time, we can review this requirement.
