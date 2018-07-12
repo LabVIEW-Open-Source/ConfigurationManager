@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-08 17:04:31" Creator="Francois Normandin" Comments="" ID="f880995910e9ce73801a331ea1a61fbf">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-11 21:52:45" Creator="Francois Normandin" Comments="" ID="5b269dbde3d185f323daffeb86c4fd99">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Configuration_Manager</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -49,8 +49,7 @@ During "Write" operations, the elements will be written in the first manager of 
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Adding Variant Read and Write support (flattens/unflattens variants to/from Key Value Pairs)
-This package now depends on LVOS DataManipulation package.</Release_Notes>
+      <Release_Notes>[Fix: 4] Expose Any and All Found from Read(Variant) method</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -355,7 +354,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Manager\Read(Variant).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3FF291614BE58D24291B011C941655D</GUID>
+      <GUID>B8AC1C8AB0913BEC0A20CB13A9F865A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -404,7 +403,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Encoding\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>117BE5729F997DEBDFF36869F5DB989E</GUID>
+      <GUID>96596DE423856AD580B769F96923D8AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -453,7 +452,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Encoding.Base64\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>786DFFFFE1007EBA11FEB14636E1AFB8</GUID>
+      <GUID>BA07AD2CDE5192F5720BD7C382B0F418</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -502,7 +501,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Encryption\Encrypt.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3A962892D3C144E64FF08F67F199ECF</GUID>
+      <GUID>A5727ED5EAAEC3F1BD8B91EE5045C2E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -607,7 +606,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Manager\Write Serializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4FA08C910E32FBF56B9ED6E132D3802</GUID>
+      <GUID>DD5E3C8492EA08050BDCB5C20C9BCF54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -656,7 +655,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Serializer\UnMarshall.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5A35B5F3E1D6873FCA47864098700BB</GUID>
+      <GUID>36ABEB6EAA209368BE8849896A70B95D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -705,7 +704,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Collection\Create Collection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CF0198703108636C7D7B1D71C3FC38A</GUID>
+      <GUID>20630AAB10BFFCB46CFBABDAAF33DCFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -782,7 +781,7 @@ This package now depends on LVOS DataManipulation package.</Release_Notes>
         <Path>source\Serializer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>525981189EC3F42E43BAEBDCD68500CE</GUID>
+      <GUID>2C49A63E7F2EEA2F7071462B94A2008D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
