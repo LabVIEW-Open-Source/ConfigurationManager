@@ -18,6 +18,7 @@
 			<Item Name="Serializer_Test.vi" Type="VI" URL="../../_unittests/Serializer_Test.vi"/>
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../CfgManager.lvlib"/>
+		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../Manager.Text/CfgManager.Text.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
