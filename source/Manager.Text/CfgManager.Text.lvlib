@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="ConfigManager.Text.lvclass" Type="LVClass" URL="../ConfigManager.Text.lvclass"/>
+	<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="../../Serializer.PlainText/Serializer.PlainText.lvclass"/>
 	<Item Name="FileHeader.lvclass" Type="LVClass" URL="../../FileHeader/FileHeader.lvclass"/>
 	<Item Name="FileSignature.lvclass" Type="LVClass" URL="../../FileSignature/FileSignature.lvclass"/>
 </Library>

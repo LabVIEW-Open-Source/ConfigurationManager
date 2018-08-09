@@ -14,14 +14,18 @@
 		<Item Name="Test Launchers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgManager Test Launcher.vi"/>
+			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../CfgManager.Text Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
 			<Item Name="Serializer_Test.vi" Type="VI" URL="../../_unittests/Serializer_Test.vi"/>
+			<Item Name="Serializer.Plaintext_Test.vi" Type="VI" URL="../../_unittests/Serializer.Plaintext_Test.vi"/>
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../CfgManager.lvlib"/>
 		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../Manager.Text/CfgManager.Text.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Delimiter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/Delimiter/Delimiter.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
 				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/KVP Parser.vi"/>
