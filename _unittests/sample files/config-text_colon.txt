@@ -1,3 +1,4 @@
-System.Pump:Config.String = "text string here..."
-System.Pump:Config.Numeric = -3.14159
 System.Pump:Config.Boolean = true
+System.Pump:Config.Numeric = 0.977168672653188
+System.Pump:Config.String = "modified"
+
