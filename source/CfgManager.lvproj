@@ -15,6 +15,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgManager Test Launcher.vi"/>
 			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../CfgManager.Text Test Launcher.vi"/>
+			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../CfgManager.Collection Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
 			<Item Name="Serializer_Test.vi" Type="VI" URL="../../_unittests/Serializer_Test.vi"/>
 			<Item Name="Serializer.Plaintext_Test.vi" Type="VI" URL="../../_unittests/Serializer.Plaintext_Test.vi"/>
