@@ -16,6 +16,9 @@ During "Write" operations, the elements will be written in the first manager of 
 # Encryption
 
 
+# Source
+Use LabVIEW 2013 SP1 to contribute to this repository. Configuration Manager will be maintained for LV 2013 and later versions for as long as features permit. If you are developing in more recent versions of LabVIEW, your contributions will not make it to master branch.
+
 # Package Build Steps
 To release packages in this project, please follow the convention below:
 
@@ -25,4 +28,4 @@ To release packages in this project, please follow the convention below:
 - Make sure the public API is accessible from a palette
 
 # Package Build Specs
-Always include dependencies in the package configuration (vipc file) so that the package can be installed without further downloads. If the package dependencies become too voluminous over time, we can review this requirement.
+Always include dependencies in the package configuration (vipc file) so that the package can be installed without further downloads. If the package dependencies become too voluminous over time, we can review this requirement. This requirement can be relaxed provided that the package dependencies are available on the LabVIEW Tool Network or a universally-accessible repository such as the JKI Package Network.
