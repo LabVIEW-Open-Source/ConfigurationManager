@@ -1,0 +1,3 @@
+System.Pump:Config.Boolean = true
+System.Pump:Config.Numeric = 0.524401200657350
+System.Pump:Config.String = "modified"
