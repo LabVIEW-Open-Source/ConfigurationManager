@@ -11,12 +11,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Launchers" Type="Folder">
+		<Item Name="_unittests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgManager Test Launcher.vi"/>
-			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../CfgManager.Text Test Launcher.vi"/>
-			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../CfgManager.Collection Test Launcher.vi"/>
-			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
+			<Item Name="sample files" Type="Folder">
+				<Item Name="config-text.txt" Type="Document" URL="../../_unittests/sample files/config-text.txt"/>
+				<Item Name="config-text_chevrons.txt" Type="Document" URL="../../_unittests/sample files/config-text_chevrons.txt"/>
+				<Item Name="config-text_colon.txt" Type="Document" URL="../../_unittests/sample files/config-text_colon.txt"/>
+			</Item>
+			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager Test Launcher.vi"/>
+			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Text Test Launcher.vi"/>
+			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Text Partial Found Test Launcher.vi"/>
+			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Collection Test Launcher.vi"/>
+			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../../_unittests/CfgManager Cache Lifetime Tests.vi"/>
 			<Item Name="Serializer_Test.vi" Type="VI" URL="../../_unittests/Serializer_Test.vi"/>
 			<Item Name="Serializer.Plaintext_Test.vi" Type="VI" URL="../../_unittests/Serializer.Plaintext_Test.vi"/>
 		</Item>
