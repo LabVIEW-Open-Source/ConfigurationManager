@@ -1,3 +1,5 @@
+## LabVIEW Open Source Project
+
 # ConfigurationManager
 The ConfigurationManager project is aimed at providing the backbone for framework-agnostic configuration management. Developers can override data source, provide their own serialization/deserialization algorithms, encoding or encryption. It is meant to be used as an injectable configuration management tool where the developer chooses at runtime what is the configuration supported, thus allowing unit testing with dependency-injected configuration states, while accessing configuration from remote locations or local file in a production context.
 
