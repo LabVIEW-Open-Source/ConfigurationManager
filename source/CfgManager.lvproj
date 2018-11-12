@@ -23,8 +23,6 @@
 			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Text Partial Found Test Launcher.vi"/>
 			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Collection Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../../_unittests/CfgManager Cache Lifetime Tests.vi"/>
-			<Item Name="Serializer_Test.vi" Type="VI" URL="../../_unittests/Serializer_Test.vi"/>
-			<Item Name="Serializer.Plaintext_Test.vi" Type="VI" URL="../../_unittests/Serializer.Plaintext_Test.vi"/>
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../CfgManager.lvlib"/>
 		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../Manager.Text/CfgManager.Text.lvlib"/>
@@ -41,6 +39,8 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
+				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer/Serializer.lvclass"/>
+				<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer.PlainText/Serializer.PlainText.lvclass"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
 				<Item Name="TD_Create Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Array.vi"/>

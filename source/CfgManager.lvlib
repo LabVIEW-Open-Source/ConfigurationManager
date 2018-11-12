@@ -10,6 +10,5 @@
 	<Item Name="ConfigManagerCollection.lvclass" Type="LVClass" URL="../Collection/ConfigManagerCollection.lvclass"/>
 	<Item Name="Encoding.lvclass" Type="LVClass" URL="../Encoding/Encoding.lvclass"/>
 	<Item Name="Encoding.Base64.lvclass" Type="LVClass" URL="../Encoding.Base64/Encoding.Base64.lvclass"/>
-	<Item Name="Serializer.lvclass" Type="LVClass" URL="../Serializer/Serializer.lvclass"/>
 	<Item Name="Encryption.lvclass" Type="LVClass" URL="../Encryption/Encryption.lvclass"/>
 </Library>
