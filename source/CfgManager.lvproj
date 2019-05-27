@@ -11,19 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_unittests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="sample files" Type="Folder">
-				<Item Name="config-text.txt" Type="Document" URL="../../_unittests/sample files/config-text.txt"/>
-				<Item Name="config-text_chevrons.txt" Type="Document" URL="../../_unittests/sample files/config-text_chevrons.txt"/>
-				<Item Name="config-text_colon.txt" Type="Document" URL="../../_unittests/sample files/config-text_colon.txt"/>
-			</Item>
-			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager Test Launcher.vi"/>
-			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Text Test Launcher.vi"/>
-			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Text Partial Found Test Launcher.vi"/>
-			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../../_unittests/CfgManager.Collection Test Launcher.vi"/>
-			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../../_unittests/CfgManager Cache Lifetime Tests.vi"/>
-		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../CfgManager.lvlib"/>
 		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../Manager.Text/CfgManager.Text.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -32,13 +19,14 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Delimiter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/Delimiter/Delimiter.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
-				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/KVP Parser.vi"/>
+				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/KVP Parser.vi"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
-				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
+				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer/Serializer.lvclass"/>
 				<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer.PlainText/Serializer.PlainText.lvclass"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
