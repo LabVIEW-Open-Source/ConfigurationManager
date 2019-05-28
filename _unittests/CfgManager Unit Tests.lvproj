@@ -18,6 +18,7 @@
 				<Item Name="config-text_chevrons.txt" Type="Document" URL="../sample files/config-text_chevrons.txt"/>
 				<Item Name="config-text_colon.txt" Type="Document" URL="../sample files/config-text_colon.txt"/>
 			</Item>
+			<Item Name="CfgManager Main Test Suite.vi" Type="VI" URL="../CfgManager Main Test Suite.vi"/>
 			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgManager Test Launcher.vi"/>
 			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../CfgManager.Text Test Launcher.vi"/>
 			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../CfgManager.Text Partial Found Test Launcher.vi"/>
@@ -375,6 +376,7 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
