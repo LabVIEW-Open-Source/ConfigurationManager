@@ -1,0 +1,20 @@
+[System]
+_staticdeps.Logger.sharedresource = true
+_staticdeps.Logger.type = "SMOLogger.lvclass"
+_staticdeps.Pump.sharedresource = false
+_staticdeps.Pump.type = "SMOPump.lvclass"
+
+[System.Logger]
+Config.Boolean = false      // there are some comments here
+Config.Numeric = 2.7818
+Config.String = "logger title here..."
+rate (Hz) = 2
+
+[System.Pump]
+; this line is only a comment
+Config.Boolean = false
+Config.Numeric = 0.0238998913897679 // This is a randomly generated number
+Config.String = "new"
+; this second line is also a comment
+location = "BOP"
+# some other kind of comment

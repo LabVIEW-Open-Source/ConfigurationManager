@@ -17,10 +17,12 @@
 				<Item Name="config-text.txt" Type="Document" URL="../sample files/config-text.txt"/>
 				<Item Name="config-text_chevrons.txt" Type="Document" URL="../sample files/config-text_chevrons.txt"/>
 				<Item Name="config-text_colon.txt" Type="Document" URL="../sample files/config-text_colon.txt"/>
+				<Item Name="config-text-ini.txt" Type="Document" URL="../sample files/config-text-ini.txt"/>
 			</Item>
 			<Item Name="CfgManager Main Test Suite.vi" Type="VI" URL="../CfgManager Main Test Suite.vi"/>
 			<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgManager Test Launcher.vi"/>
 			<Item Name="CfgManager.Text Test Launcher.vi" Type="VI" URL="../CfgManager.Text Test Launcher.vi"/>
+			<Item Name="CfgManager.Text.INI Test Launcher.vi" Type="VI" URL="../CfgManager.Text.INI Test Launcher.vi"/>
 			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../CfgManager.Text Partial Found Test Launcher.vi"/>
 			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../CfgManager.Collection Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
