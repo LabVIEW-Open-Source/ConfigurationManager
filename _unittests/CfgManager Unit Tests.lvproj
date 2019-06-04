@@ -26,10 +26,10 @@
 			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../CfgManager.Text Partial Found Test Launcher.vi"/>
 			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../CfgManager.Collection Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
+			<Item Name="Test -- INI Creation.vi" Type="VI" URL="../Test -- INI Creation.vi"/>
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../../source/CfgManager.lvlib"/>
 		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../../source/Manager.Text/CfgManager.Text.lvlib"/>
-		<Item Name="Test -- INI Creation.vi" Type="VI" URL="../Test -- INI Creation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="4822C501820BB5A8313EAE4F8D4B529FArray Size(s)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/4822C501820BB5A8313EAE4F8D4B529FArray Size(s)__ogtk.vi"/>
