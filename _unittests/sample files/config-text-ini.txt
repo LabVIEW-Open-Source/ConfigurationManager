@@ -13,8 +13,19 @@ rate (Hz) = 2
 [System.Pump]
 ; this line is only a comment
 Config.Boolean = false
-Config.Numeric = 0.0238998913897679 // This is a randomly generated number
+Config.Numeric = 0.948999913821431 // This is a randomly generated number
 Config.String = "new"
 ; this second line is also a comment
 location = "BOP"
 # some other kind of comment
+
+[System.Valve]
+Settings.D = 0.00000000000000
+Settings.I = 0.00000000000000
+Settings.P = 1.00000000000000
+_staticdeps.Sensor.name = "Sensor"
+_staticdeps.Sensor.type = "Sensor.lvclass"
+_staticdeps.Sensor.sharedresource = false
+_staticdeps.Logger.name = "Logger"
+_staticdeps.Logger.type = "Logger.lvclass"
+_staticdeps.Logger.sharedresource = true

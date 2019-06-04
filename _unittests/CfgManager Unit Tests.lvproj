@@ -29,6 +29,7 @@
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../../source/CfgManager.lvlib"/>
 		<Item Name="CfgManager.Text.lvlib" Type="Library" URL="../../source/Manager.Text/CfgManager.Text.lvlib"/>
+		<Item Name="Test -- INI Creation.vi" Type="VI" URL="../Test -- INI Creation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="4822C501820BB5A8313EAE4F8D4B529FArray Size(s)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/4822C501820BB5A8313EAE4F8D4B529FArray Size(s)__ogtk.vi"/>
