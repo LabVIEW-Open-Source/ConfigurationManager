@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2019-06-04 19:52:49" Creator="Francois Normandin" Comments="" ID="731b4ac5c6beddd4f9e220527b874ebc">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2019-07-03 19:43:37" Creator="Francois Normandin" Comments="" ID="52de524e7cd6527c46801224d64d50e4">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Configuration_Manager</Package_File_Name>
-    <Library_Version>1.1.0.10</Library_Version>
+    <Library_Version>1.2.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.1.0.5</External_Dependencies>
-      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.0.2.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.2.2.8</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.0.5.11</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.0.1.2</External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.1.0.5</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_serializer-1.0.2.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.2.2.8</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_serializer-1.0.5.11</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_unicity-1.0.1.2</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -56,10 +56,9 @@ During "Write" operations, the elements will be written in the first manager of 
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Updated dependencies to support Enums
-- Base class now supports URI
-- Support for CfgManager.Text.INI
-- Added a method for Read Path in CfgManager.Text</Release_Notes>
+      <Release_Notes>- Support for Arrays in CfgManager.Text
+- Partial support for CfgManager.Text.INI (Arrays are not supported yet)
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -391,7 +390,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\INI File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE531B2BAC82CC72C29DEFCC9DE2ABF6</GUID>
+      <GUID>72F39C1B8629DA7E9BA7F50E2322F2F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -440,7 +439,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Encoding\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7FE7F48A9BB4C44DBE492FFD782DF27</GUID>
+      <GUID>C86F929A80E6BA19D72A23B5481D829F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -489,7 +488,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Encoding.Base64\Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5E29A4FBDA18C1A9E787B64F459FBA7</GUID>
+      <GUID>623B4E0D8EE580C1173D4ACA423D0CCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -538,7 +537,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Encryption\Encrypt.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7B732087D8BE1A69D15C4107E3E8A5C</GUID>
+      <GUID>222E6E13DA0EA912CB9374CCCBAB01FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +670,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager\Write URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB568D793DCE4365D415AF492CFF9AA6</GUID>
+      <GUID>00549DA479E2620A87539648BDF0EED3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -748,7 +747,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager.Text.INI\Create Manager.Text.INI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D0FE4AA498513AEE2AD378E8BD5D46B</GUID>
+      <GUID>A56333A34317AA713C1F09CEDF5E8AF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -825,7 +824,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager\Decompose KVPs.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D891F96D68E6FEBA0B0F446BEE00281</GUID>
+      <GUID>FE73BCCC5FAABCB64514710673472A95</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1126,7 +1125,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager.Text\Read Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6315C22CAE723FAD2DD70852F35595B9</GUID>
+      <GUID>EFE31CDC3A970BC481F3CF1D4FDA04E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1343,7 +1342,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager.Text\EnumerateElements.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32CF7A4329BD487E2483D9768F1DAF4E</GUID>
+      <GUID>7277BEC48FF6CB5F1003654E2E76B7E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1420,7 +1419,7 @@ During "Write" operations, the elements will be written in the first manager of 
         <Path>source\Manager.Text.INI\Default INITextManager Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F0CC59B0E4155055AA971BDB7DF7579</GUID>
+      <GUID>6485E29984772750A88D93379E01C770</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
