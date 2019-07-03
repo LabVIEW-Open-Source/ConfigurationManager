@@ -1,6 +1,8 @@
+System.Other:ArrayOfClusters = [{true,42,"A"},{false,0,""},{true,-54,"C"}]
 System.Pump:Config.Boolean = true
-System.Pump:Config.Numeric = 0.334867987909570
+System.Pump:Config.Numeric = 0.537480273173034
 System.Pump:Config.String = "modified"
+System.Pump:Config.array = [0.5874812513732]
 System.Valve:Settings.D = 0.00000000000000
 System.Valve:Settings.I = 0.227441643632954
 System.Valve:Settings.P = 1.00000000000000
