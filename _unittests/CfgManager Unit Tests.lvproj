@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -28,6 +29,7 @@
 			<Item Name="CfgManager.Text Partial Found Test Launcher.vi" Type="VI" URL="../CfgManager.Text Partial Found Test Launcher.vi"/>
 			<Item Name="CfgManager.Collection Test Launcher.vi" Type="VI" URL="../CfgManager.Collection Test Launcher.vi"/>
 			<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgManager Cache Lifetime Tests.vi"/>
+			<Item Name="CfgManager.Text--ForceSave.vi" Type="VI" URL="../CfgManager.Text--ForceSave.vi"/>
 			<Item Name="Test -- INI Creation.vi" Type="VI" URL="../Test -- INI Creation.vi"/>
 		</Item>
 		<Item Name="CfgManager.lvlib" Type="Library" URL="../../source/CfgManager.lvlib"/>
@@ -382,6 +384,7 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Serializer.lvclass" Type="LVClass" URL="../../source/Serializer/Serializer.lvclass"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
